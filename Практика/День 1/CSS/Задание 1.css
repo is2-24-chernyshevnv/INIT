@@ -1,0 +1,9 @@
+.el{
+width: calc(100% / 3);
+transform: rotate(calc(3turn + 90deg));
+}
+.el2{
+--spacing: 10px
+font-size: calc(5vh + 20px);
+padding: calc(var(--spacing) * 2);
+}
